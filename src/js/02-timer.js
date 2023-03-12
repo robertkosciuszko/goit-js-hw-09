@@ -66,6 +66,7 @@ btnStart.addEventListener('click', () => {
       if (countdown <= 10000) {
         timerHtml.style.color = 'tomato';
       }
+      
     } else {
       Notiflix.Notify.success('Countdown finished');
       timerHtml.style.color = 'black';
